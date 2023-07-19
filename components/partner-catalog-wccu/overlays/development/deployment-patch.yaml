@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: partner-catalog-wccu
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/mramdani-tenant/partner-catalog-1/partner-catalog-wccu@sha256:0b4e60a5c687b60f43e8c9f11685a52e63195c0f70a88bef84b564927918d4d5
+      - image: quay.io/redhat-user-workloads/mramdani-tenant/partner-catalog-1/partner-catalog-wccu@sha256:8011efdd44185dd78d75881d7dbb87bc3c1b3ee11ac2dbc99c9132c79c53c5c7
         name: my-java-springboot
         resources: {}
 status: {}
