@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-wccu
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/mramdani-tenant/partner-catalog-1/partner-catalog-wccu@sha256:eb8297da3c41b072ba0adb1b987742acb03da3b9d3dfa6813d81826a1546e280
+      - image: quay.io/redhat-user-workloads/mramdani-tenant/partner-catalog-1/partner-catalog-wccu@sha256:6303624e12e447b817b0db9b7cbead6d997d276781096c8f021ece0465e5c0f3
         name: my-java-springboot
         ports:
         - containerPort: 8081
